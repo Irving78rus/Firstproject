@@ -1,0 +1,70 @@
+
+*{
+    
+    background-color:rgb(244, 255, 248);
+    background-image: radial-gradient(circle 675px at center, #ffffff 0%, #ccdef0 100% );
+}
+
+.content{
+    max-width: 900px;
+    margin: 0px auto;
+    
+}
+.intro{
+    text-align: center;
+    font-family: "Arial MT";
+    color: #273d46;
+    font-size: 20px;
+}
+.blok-chek{
+    display: inline-block;
+    margin-left: 250px;
+    
+}
+.input-in{font-family: "Arial MT";
+    color: #273d46;
+    font-size: 20px;
+    
+}
+.chek{font-family: "Arial MT";
+    color: #273d46;
+    font-size: 20px;
+    
+}
+
+.out{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+.go{
+    font-style: blue;
+    border-radius: 25px;
+   
+    text-decoration: none;
+       
+}
+.go::after{
+    content: ""; 
+   background-image: url(../img/Akim.jpg);
+   background-size: 400px 532px; 
+   border-radius: 40px;
+   box-shadow: 0 0 11px 11px white inset;
+   width:400px; 
+   height: 532px; 
+   background-repeat: no-repeat; 
+   margin-left: -200px; 
+  
+   position: absolute;
+    
+}
+
+.go span{
+    font-size: 30px;
+    text-decoration:  none ;
+    
+    
+}
+.out1{
+    max-width: 200px;
+}

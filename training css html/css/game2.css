@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    height: 100vh;
+    background-color:rgb(244, 255, 248);
+    background-image: radial-gradient(circle 675px at center, #ffffff 0%, #ccdef0 100% );
+}
+
+.intro{
+    text-align: center;
+    font-family: "Arial MT";
+    color: #273d46;
+    font-size: 30px;
+}
+.div-start{
+    text-align: center; 
+}
+.start{
+    
+    width: 250px;
+    height: 30px;
+    display: inline;
+
+    
+}
+
+
+.out{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+.button1{
+    content: '';
+    
+    
+    display: inline-block;
+    position: absolute; 
+    
+    
+    background-color:rgb(244, 255, 248);
+    background-image: radial-gradient(circle 675px at center, #ffffff 0%, #ccdef0 100% );
+}
+
+.tyk{
+    content: '';
+   font-style: italic;
+    
+    display: inline-block;
+    position: absolute; 
+    
+
+}
+
+
+
+
+.button2{
+   
+    display: none;
+    
+}
